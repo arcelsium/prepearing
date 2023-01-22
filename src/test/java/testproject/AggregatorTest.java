@@ -25,6 +25,6 @@ public class AggregatorTest {
         double val = 15;
         agr.addValue(val);
         agr.addValue(val);
-        assertThat(agr.getSum()).isEqualTo(val * 7);
+        assertThat(agr.getSum()).isEqualTo(val * 2);
     }
 }
